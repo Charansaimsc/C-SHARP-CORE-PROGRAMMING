@@ -1,7 +1,0 @@
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\bin\Debug\IntroAndBasic.exe.config
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\bin\Debug\IntroAndBasic.exe
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\bin\Debug\IntroAndBasic.pdb
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\obj\Debug\IntroAndBasic.csproj.AssemblyReference.cache
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\obj\Debug\IntroAndBasic.csproj.CoreCompileInputs.cache
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\obj\Debug\IntroAndBasic.exe
-E:\C#-CORE-PROGRAMMING\IntroAndBasic\IntroAndBasic\obj\Debug\IntroAndBasic.pdb
