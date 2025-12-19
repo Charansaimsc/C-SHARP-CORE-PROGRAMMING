@@ -10,6 +10,12 @@ namespace control_flow_Level_2
     {
         static void Main(string[] args)
         {
+            //PrimeFunctions.CheckPrime();
+            //FizzBuzzWhile.FizzBuzz();
+            BMIIndexx.BMIIndex();
+            Friends.FindYoungestAndTallest();
+            Factors.FactorsOfNumber();
+            Multiples.Multiple();
         }
     }
 }

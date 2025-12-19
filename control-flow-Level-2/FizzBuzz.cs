@@ -13,7 +13,7 @@ namespace control_flow_Level_2
             int number = int.Parse(Console.ReadLine());
             if (number > 0)
             {
-                for (int i = 0; i < number+1; i++)
+                for (int i = 1; i < number+1; i++)
                 {
                     if (i % 3 == 0 && i % 5 == 0)
                     {
