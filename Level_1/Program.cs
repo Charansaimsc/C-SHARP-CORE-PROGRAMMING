@@ -8,7 +8,9 @@ namespace Level_1
        {
             // ValidVoter.StudentVotes();
             // integer.integers();
-            Multiplication.Table();
-    
+            //Multiplication.Table();
+            MultipleValues.NoZeroAndNegative();
+
+
         }
 }}
