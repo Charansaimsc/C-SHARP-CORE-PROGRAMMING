@@ -6,8 +6,8 @@ namespace Level_1
     {
         static void Main(string[] args)
        {
-            ValidVoter.StudentVotes();
-
+           // ValidVoter.StudentVotes();
+            integer.integers();
     
         }
 }}
