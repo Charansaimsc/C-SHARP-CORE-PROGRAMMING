@@ -9,8 +9,8 @@ namespace Level_1
             // ValidVoter.StudentVotes();
             // integer.integers();
             //Multiplication.Table();
-            MultipleValues.NoZeroAndNegative();
-
+            //MultipleValues.NoZeroAndNegative();
+            Multiplication6To9.Table();
 
         }
 }}
