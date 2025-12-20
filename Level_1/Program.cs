@@ -14,6 +14,7 @@ namespace Level_1
             //MeanHeight.Players();
             //OddEven.Seperation();
             //FactorsOfArray.FindFactors();
-            MultiDimensionalArray.TwoDTo1D();
+            //MultiDimensionalArray.TwoDTo1D();
+            FizzBuzz.Solution();
         }
 }}
