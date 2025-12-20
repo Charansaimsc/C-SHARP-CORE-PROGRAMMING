@@ -11,7 +11,10 @@ namespace Level_2
             //ReverseArray.digitsReverse();
             //BMIIndex.weightStatus();
             //BMIJagged.WeightStatusMultiDim();
-            MarksOfStudents.percentageAndGradeMarks();
+            // MarksOfStudents.percentageAndGradeMarks();
+            //MarksOfStudent2.PercentageAndGradeMarksJagged();
+            DigitFrequency.FindFrequency();
+
 
         }
     }
