@@ -1,4 +1,12 @@
-﻿using System;
+﻿/* Rewrite the above program using multi-dimensional array to store height, weight, and BMI in
+2D array for all the persons
+Hint =>
+a. Take input for a number of persons
+b. Create a multi-dimensional array to store weight, height and BMI. Also create an to store
+the weight status of the persons
+double[][] personData = new double[number][3];
+String[] weightStatus = new String[number];*/
+using System;
 
 public class BMIJagged
 {

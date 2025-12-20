@@ -10,7 +10,8 @@ namespace Level_2
             // LargestAndSecondLargest.Function();
             //ReverseArray.digitsReverse();
             //BMIIndex.weightStatus();
-            BMIJagged.WeightStatusMultiDim();
+            //BMIJagged.WeightStatusMultiDim();
+            MarksOfStudents.percentageAndGradeMarks();
 
         }
     }
