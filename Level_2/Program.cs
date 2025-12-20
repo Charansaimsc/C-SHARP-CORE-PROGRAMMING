@@ -9,7 +9,9 @@ namespace Level_2
             //YoungestOfAll.FindYoungestAndTallest();
             // LargestAndSecondLargest.Function();
             //ReverseArray.digitsReverse();
-            BMIIndex.weightStatus();
+            //BMIIndex.weightStatus();
+            BMIJagged.WeightStatusMultiDim();
+
         }
     }
 }
