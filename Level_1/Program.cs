@@ -10,8 +10,10 @@ namespace Level_1
             // integer.integers();
             //Multiplication.Table();
             //MultipleValues.NoZeroAndNegative();
-           // Multiplication6To9.Table();
+            // Multiplication6To9.Table();
             //MeanHeight.Players();
-            OddEven.Seperation();
+            //OddEven.Seperation();
+            //FactorsOfArray.FindFactors();
+            MultiDimensionalArray.TwoDTo1D();
         }
 }}
