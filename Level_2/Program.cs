@@ -8,7 +8,8 @@ namespace Level_2
             // EmployeeBonus.Calculation();
             //YoungestOfAll.FindYoungestAndTallest();
             // LargestAndSecondLargest.Function();
-            ReverseArray.digitsReverse();
+            //ReverseArray.digitsReverse();
+            BMIIndex.weightStatus();
         }
     }
 }
