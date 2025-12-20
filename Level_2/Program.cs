@@ -7,7 +7,8 @@ namespace Level_2
         {
             // EmployeeBonus.Calculation();
             //YoungestOfAll.FindYoungestAndTallest();
-            LargestAndSecondLargest.Function();
+            // LargestAndSecondLargest.Function();
+            ReverseArray.digitsReverse();
         }
     }
 }
