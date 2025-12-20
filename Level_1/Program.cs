@@ -11,7 +11,7 @@ namespace Level_1
             //Multiplication.Table();
             //MultipleValues.NoZeroAndNegative();
            // Multiplication6To9.Table();
-            MeanHeight.Players();
-
+            //MeanHeight.Players();
+            OddEven.Seperation();
         }
 }}
