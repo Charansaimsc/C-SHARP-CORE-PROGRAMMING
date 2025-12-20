@@ -6,7 +6,8 @@ namespace Level_2
         static void Main(string[] args)
         {
             // EmployeeBonus.Calculation();
-            YoungestOfAll.FindYoungestAndTallest();
+            //YoungestOfAll.FindYoungestAndTallest();
+            LargestAndSecondLargest.Function();
         }
     }
 }
