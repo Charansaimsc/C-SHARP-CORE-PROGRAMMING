@@ -10,7 +10,8 @@ namespace Level_1
             // integer.integers();
             //Multiplication.Table();
             //MultipleValues.NoZeroAndNegative();
-            Multiplication6To9.Table();
+           // Multiplication6To9.Table();
+            MeanHeight.Players();
 
         }
 }}
