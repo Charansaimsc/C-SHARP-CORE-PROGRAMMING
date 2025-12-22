@@ -11,7 +11,8 @@ namespace Level_1
             //NullReferenceException.TryCatchExpetion();
             //  IndexOutOfRange.UsingTryCtach();
             //ArgumentOutOfException.TryCatchBlock();
-            FormatException.usingTryCatchBlock();
+            //FormatException.usingTryCatchBlock();
+            ToUpperCase.convertString();
         }
     }
 }
