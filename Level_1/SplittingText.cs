@@ -4,7 +4,6 @@
     {
         string text = Console.ReadLine();
 
-        // Count words first
         int wordCount = CountWords(text);
 
         string[,] result = new string[wordCount, 2];
@@ -36,7 +35,7 @@
             result[wordIndex, 1] = ManualLength(currentWord).ToString();
         }
 
-        // Print the result
+        
         for (int i = 0; i < wordCount; i++)
         {
             Console.WriteLine(result[i, 0] + " : " + result[i, 1]);
