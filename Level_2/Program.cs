@@ -15,8 +15,8 @@ namespace Level_2
             // LexicographicalOrder.Compare();
             //MostFrequent.CharacterCount();
             // RemoveSpecificChar.charRemoval();
-            ReplaceWord.Sentence();
-
+            //ReplaceWord.Sentence();
+            Anagaram.Check();
 
 
 
