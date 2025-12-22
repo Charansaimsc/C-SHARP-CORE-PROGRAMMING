@@ -8,9 +8,11 @@ namespace Level_2
             //VowelsAndConsonants.CountVowelsAndConsonants();
             //StringReverse.WithoutInBuit();
             //LongestWordFinder.Find();
-            SubStringOcuurrence.Counter();
+            //SubStringOcuurrence.Counter();
+            // ToggleCase.Change();
             //RemoveDuplicates.removalOfDuplicates();
             //Palindrome.check();
+            LexicographicalOrder.Compare();
         }
     }
 }
