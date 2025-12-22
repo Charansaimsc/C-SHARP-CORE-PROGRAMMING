@@ -55,15 +55,20 @@ namespace Level_1
             //Console.WriteLine(result.largest);
 
 
+            //int number =Convert.ToInt32(Console.ReadLine());
+            //int divisor = Convert.ToInt32(Console.ReadLine());
+            //QuotientAndRemainder obj = new QuotientAndRemainder();
+            //int[] result = obj.Calculation(number, divisor);
+            //Console.WriteLine(result[0] + "           " + result[1]);
+
+
+
+
             int number =Convert.ToInt32(Console.ReadLine());
-            int divisor = Convert.ToInt32(Console.ReadLine());
-            QuotientAndRemainder obj = new QuotientAndRemainder();
-            int[] result = obj.Calculation(number, divisor);
+            int persons = Convert.ToInt32(Console.ReadLine());
+            Chocolates obj = new Chocolates();
+            int[] result = obj.Distribution(number, persons);
             Console.WriteLine(result[0] + "           " + result[1]);
-
-
-
-
 
 
 
