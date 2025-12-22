@@ -72,16 +72,25 @@ namespace Level_1
 
 
 
-            double temperature = 30;
-            double  windSpeed = 60;
+            //double temperature = 30;
+            //double  windSpeed = 60;
 
-            WindTemperature obj = new WindTemperature();
-            Console.WriteLine(obj.FindWindChill(temperature, windSpeed));
-
-
+            //WindTemperature obj = new WindTemperature();
+            //Console.WriteLine(obj.FindWindChill(temperature, windSpeed));
 
 
 
+      
+                double angle = Convert.ToDouble(Console.ReadLine());
+
+                TrigonometricCalculator obj = new TrigonometricCalculator();
+                double[] result = obj.calculateTrigonometricFunctions(angle);
+
+                Console.WriteLine("Sin: " + result[0]);
+                Console.WriteLine("Cos: " + result[1]);
+                Console.WriteLine("Tan: " + result[2]);
+            
+        
 
 
 
@@ -92,6 +101,8 @@ namespace Level_1
 
 
 
-            }
+
+
     }
+}
 }
