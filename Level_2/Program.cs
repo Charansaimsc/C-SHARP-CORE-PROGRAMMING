@@ -7,8 +7,8 @@ namespace Level_2
         {
             //VowelsAndConsonants.CountVowelsAndConsonants();
             //StringReverse.WithoutInBuit();
-
-            Palindrome.check();
+            RemoveDuplicates.removalOfDuplicates();
+            //Palindrome.check();
         }
     }
 }
