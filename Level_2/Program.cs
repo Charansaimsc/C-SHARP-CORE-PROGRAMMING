@@ -7,7 +7,9 @@ namespace Level_2
         {
             //VowelsAndConsonants.CountVowelsAndConsonants();
             //StringReverse.WithoutInBuit();
-            RemoveDuplicates.removalOfDuplicates();
+            //LongestWordFinder.Find();
+            SubStringOcuurrence.Counter();
+            //RemoveDuplicates.removalOfDuplicates();
             //Palindrome.check();
         }
     }
