@@ -12,10 +12,10 @@ namespace Level_2
             // ToggleCase.Change();
             //RemoveDuplicates.removalOfDuplicates();
             //Palindrome.check();
-           // LexicographicalOrder.Compare();
-            MostFrequent.CharacterCount();
-
-
+            // LexicographicalOrder.Compare();
+            //MostFrequent.CharacterCount();
+            // RemoveSpecificChar.charRemoval();
+            ReplaceWord.Sentence();
 
 
 
