@@ -46,16 +46,20 @@ namespace Level_1
             //Console.WriteLine(obj.Sum(number));
 
 
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            int num3 = Convert.ToInt32(Console.ReadLine());
-            SmallestAndLargest obj = new SmallestAndLargest();
-            var result = obj.Calculation(num1, num2, num3);
-            Console.WriteLine(result.smallest);
-            Console.WriteLine(result.largest);
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //int num3 = Convert.ToInt32(Console.ReadLine());
+            //SmallestAndLargest obj = new SmallestAndLargest();
+            //var result = obj.Calculation(num1, num2, num3);
+            //Console.WriteLine(result.smallest);
+            //Console.WriteLine(result.largest);
 
 
-
+            int number =Convert.ToInt32(Console.ReadLine());
+            int divisor = Convert.ToInt32(Console.ReadLine());
+            QuotientAndRemainder obj = new QuotientAndRemainder();
+            int[] result = obj.Calculation(number, divisor);
+            Console.WriteLine(result[0] + "           " + result[1]);
 
 
 
