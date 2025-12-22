@@ -12,7 +12,14 @@ namespace Level_2
             // ToggleCase.Change();
             //RemoveDuplicates.removalOfDuplicates();
             //Palindrome.check();
-            LexicographicalOrder.Compare();
+           // LexicographicalOrder.Compare();
+            MostFrequent.CharacterCount();
+
+
+
+
+
+
         }
     }
 }
