@@ -27,18 +27,23 @@ namespace Level_1
             //NumberAnalysis obj = new NumberAnalysis();
             //Console.WriteLine(obj.PosOrNegOrZero(number));
             
-            int day =int.Parse(Console.ReadLine());
-            int month = int.Parse(Console.ReadLine());
-            SpringSeason obj = new SpringSeason();
-            bool result = obj.SpringCheck(day, month);
-            if (result)
-            {
-                Console.WriteLine("its a sptikng");
-            }
-            else {
-                Console.WriteLine(" not a  sptikng");
-            }
+            //int day =int.Parse(Console.ReadLine());
+            //int month = int.Parse(Console.ReadLine());
+            //SpringSeason obj = new SpringSeason();
+            //bool result = obj.SpringCheck(day, month);
+            //if (result)
+            //{
+            //    Console.WriteLine("its a sptikng");
+            //}
+            //else {
+            //    Console.WriteLine(" not a  sptikng");
+            //}
 
+
+
+            int number = Convert.ToInt32(Console.ReadLine());
+            NaturalNumbers obj = new NaturalNumbers();
+            Console.WriteLine(obj.Sum(number));
         }
     }
 }
