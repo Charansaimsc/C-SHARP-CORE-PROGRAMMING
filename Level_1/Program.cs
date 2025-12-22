@@ -26,7 +26,7 @@ namespace Level_1
             //int number = int.Parse(Console.ReadLine());
             //NumberAnalysis obj = new NumberAnalysis();
             //Console.WriteLine(obj.PosOrNegOrZero(number));
-            
+
             //int day =int.Parse(Console.ReadLine());
             //int month = int.Parse(Console.ReadLine());
             //SpringSeason obj = new SpringSeason();
@@ -41,9 +41,44 @@ namespace Level_1
 
 
 
-            int number = Convert.ToInt32(Console.ReadLine());
-            NaturalNumbers obj = new NaturalNumbers();
-            Console.WriteLine(obj.Sum(number));
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //NaturalNumbers obj = new NaturalNumbers();
+            //Console.WriteLine(obj.Sum(number));
+
+
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int num3 = Convert.ToInt32(Console.ReadLine());
+            SmallestAndLargest obj = new SmallestAndLargest();
+            var result = obj.Calculation(num1, num2, num3);
+            Console.WriteLine(result.smallest);
+            Console.WriteLine(result.largest);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
