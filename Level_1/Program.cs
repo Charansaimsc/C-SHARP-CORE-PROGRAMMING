@@ -12,10 +12,16 @@ namespace Level_1
         //    SimpleInterest S = new SimpleInterest();
         //    Console.WriteLine("the simple interest is : " + S.CalculateSI(principal,rate,time));
              
-            int studentsCount = Convert.ToInt32(Console.ReadLine());
-            HandShakes Hs = new HandShakes();
-            Console.WriteLine(Hs.Calculate(studentsCount));
-        
-       }
+            //int studentsCount = Convert.ToInt32(Console.ReadLine());
+            //HandShakes Hs = new HandShakes();
+            //Console.WriteLine(Hs.Calculate(studentsCount));
+
+            int side1 = int.Parse(Console.ReadLine());
+            int side2 = int.Parse(Console.ReadLine());
+            int side3 = int.Parse(Console.ReadLine());
+            TriangularPark obj = new TriangularPark();
+            Console.WriteLine(obj.CompleteRounds(side1, side2, side3));
+
+        }
     }
 }
