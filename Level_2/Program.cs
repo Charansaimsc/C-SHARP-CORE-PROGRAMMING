@@ -6,7 +6,9 @@ namespace Level_2
     static void Main(string[] args)
         {
             //VowelsAndConsonants.CountVowelsAndConsonants();
-            StringReverse.WithoutInBuit();
+            //StringReverse.WithoutInBuit();
+
+            Palindrome.check();
         }
     }
 }
