@@ -8,7 +8,8 @@ namespace Level_1
             // ComparingStrings.StringComparison();
             //SubString.GenerationSubString();
             // ReturnCharacters.withoutTocharArray();
-            NullReferenceException.TryCatchExpetion();
+            //NullReferenceException.TryCatchExpetion();
+            IndexOutOfRange.UsingTryCtach();
         }
     }
 }
