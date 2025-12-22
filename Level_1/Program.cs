@@ -64,11 +64,19 @@ namespace Level_1
 
 
 
-            int number =Convert.ToInt32(Console.ReadLine());
-            int persons = Convert.ToInt32(Console.ReadLine());
-            Chocolates obj = new Chocolates();
-            int[] result = obj.Distribution(number, persons);
-            Console.WriteLine(result[0] + "           " + result[1]);
+            //int number =Convert.ToInt32(Console.ReadLine());
+            //int persons = Convert.ToInt32(Console.ReadLine());
+            //Chocolates obj = new Chocolates();
+            //int[] result = obj.Distribution(number, persons);
+            //Console.WriteLine(result[0] + "           " + result[1]);
+
+
+
+            double temperature = 30;
+            double  windSpeed = 60;
+
+            WindTemperature obj = new WindTemperature();
+            Console.WriteLine(obj.FindWindChill(temperature, windSpeed));
 
 
 
@@ -84,10 +92,6 @@ namespace Level_1
 
 
 
-
-
-
-
-        }
+            }
     }
 }
