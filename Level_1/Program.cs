@@ -23,9 +23,21 @@ namespace Level_1
             //Console.WriteLine(obj.CompleteRounds(side1, side2, side3));
 
 
-            int number = int.Parse(Console.ReadLine());
-            NumberAnalysis obj = new NumberAnalysis();
-            Console.WriteLine(obj.PosOrNegOrZero(number));
+            //int number = int.Parse(Console.ReadLine());
+            //NumberAnalysis obj = new NumberAnalysis();
+            //Console.WriteLine(obj.PosOrNegOrZero(number));
+            
+            int day =int.Parse(Console.ReadLine());
+            int month = int.Parse(Console.ReadLine());
+            SpringSeason obj = new SpringSeason();
+            bool result = obj.SpringCheck(day, month);
+            if (result)
+            {
+                Console.WriteLine("its a sptikng");
+            }
+            else {
+                Console.WriteLine(" not a  sptikng");
+            }
 
         }
     }
