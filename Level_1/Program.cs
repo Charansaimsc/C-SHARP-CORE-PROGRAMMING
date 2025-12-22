@@ -12,7 +12,8 @@ namespace Level_1
             //  IndexOutOfRange.UsingTryCtach();
             //ArgumentOutOfException.TryCatchBlock();
             //FormatException.usingTryCatchBlock();
-            ToLowerCase.convertString();
+            //ToLowerCase.convertString();
+            TextProcessor.DisplayWordLengths();
         }
     }
 }
