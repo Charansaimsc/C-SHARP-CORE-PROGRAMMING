@@ -7,7 +7,8 @@ namespace Level_1
         {
             // ComparingStrings.StringComparison();
             //SubString.GenerationSubString();
-            ReturnCharacters.withoutTocharArray();
+            // ReturnCharacters.withoutTocharArray();
+            NullReferenceException.TryCatchExpetion();
         }
     }
 }
