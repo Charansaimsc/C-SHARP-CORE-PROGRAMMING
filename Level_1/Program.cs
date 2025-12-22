@@ -5,22 +5,27 @@ namespace Level_1
     {
         static void Main(string[] args)
         {
-        //
-        //    int principal = Convert.ToInt32(Console.ReadLine());
-        //    int rate = Convert.ToInt32(Console.ReadLine());
-        //    int time = Convert.ToInt32(Console.ReadLine());
-        //    SimpleInterest S = new SimpleInterest();
-        //    Console.WriteLine("the simple interest is : " + S.CalculateSI(principal,rate,time));
-             
+            //
+            //    int principal = Convert.ToInt32(Console.ReadLine());
+            //    int rate = Convert.ToInt32(Console.ReadLine());
+            //    int time = Convert.ToInt32(Console.ReadLine());
+            //    SimpleInterest S = new SimpleInterest();
+            //    Console.WriteLine("the simple interest is : " + S.CalculateSI(principal,rate,time));
+
             //int studentsCount = Convert.ToInt32(Console.ReadLine());
             //HandShakes Hs = new HandShakes();
             //Console.WriteLine(Hs.Calculate(studentsCount));
 
-            int side1 = int.Parse(Console.ReadLine());
-            int side2 = int.Parse(Console.ReadLine());
-            int side3 = int.Parse(Console.ReadLine());
-            TriangularPark obj = new TriangularPark();
-            Console.WriteLine(obj.CompleteRounds(side1, side2, side3));
+            //int side1 = int.Parse(Console.ReadLine());
+            //int side2 = int.Parse(Console.ReadLine());
+            //int side3 = int.Parse(Console.ReadLine());
+            //TriangularPark obj = new TriangularPark();
+            //Console.WriteLine(obj.CompleteRounds(side1, side2, side3));
+
+
+            int number = int.Parse(Console.ReadLine());
+            NumberAnalysis obj = new NumberAnalysis();
+            Console.WriteLine(obj.PosOrNegOrZero(number));
 
         }
     }
