@@ -9,7 +9,8 @@ namespace Level_1
             //SubString.GenerationSubString();
             // ReturnCharacters.withoutTocharArray();
             //NullReferenceException.TryCatchExpetion();
-            IndexOutOfRange.UsingTryCtach();
+            //  IndexOutOfRange.UsingTryCtach();
+            ArgumentOutOfException.TryCatchBlock();
         }
     }
 }
