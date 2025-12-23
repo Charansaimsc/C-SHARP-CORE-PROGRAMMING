@@ -90,41 +90,43 @@ namespace Level_3
             //Console.ReadLine();
 
 
-                Console.WriteLine("Enter a number:");
-                int num = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a number:");
+            //int num = int.Parse(Console.ReadLine());
 
-                int[] factors = NumberChecker5.Factors(num);
+            //int[] factors = NumberChecker5.Factors(num);
 
-                Console.WriteLine("\nFactors:");
-                foreach (int f in factors)
-                    Console.Write(f + " ");
+            //Console.WriteLine("\nFactors:");
+            //foreach (int f in factors)
+            //    Console.Write(f + " ");
 
-                Console.WriteLine("\n\nGreatest Factor: " +
-                    NumberChecker5.GreatestFacter(factors));
+            //Console.WriteLine("\n\nGreatest Factor: " +
+            //    NumberChecker5.GreatestFacter(factors));
 
-                Console.WriteLine("Product of Factors: " +
-                    NumberChecker5.Product(factors));
+            //Console.WriteLine("Product of Factors: " +
+            //    NumberChecker5.Product(factors));
 
-                Console.WriteLine("Product of Cubes of Factors: " +
-                    NumberChecker5.ProductOfCubes(factors));
+            //Console.WriteLine("Product of Cubes of Factors: " +
+            //    NumberChecker5.ProductOfCubes(factors));
 
-                Console.WriteLine("\nPerfect Number: " +
-                    NumberChecker5.IsPerfectNumber(num));
+            //Console.WriteLine("\nPerfect Number: " +
+            //    NumberChecker5.IsPerfectNumber(num));
 
-                Console.WriteLine("Abundant Number: " +
-                    NumberChecker5.AbundentNumber(num));
+            //Console.WriteLine("Abundant Number: " +
+            //    NumberChecker5.AbundentNumber(num));
 
-                Console.WriteLine("Deficient Number: " +
-                    NumberChecker5.DeficientNumber(num));
+            //Console.WriteLine("Deficient Number: " +
+            //    NumberChecker5.DeficientNumber(num));
 
-                Console.WriteLine("Strong Number: " +
-                    NumberChecker5.IsStrongNumber(num));
+            //Console.WriteLine("Strong Number: " +
+            //    NumberChecker5.IsStrongNumber(num));
 
-                Console.ReadLine();
-           
-
+            //Console.ReadLine();
 
 
+
+            int size = 10;
+            int[] otps = OTPGenerator.RandomOTPs(size);
+            Console.WriteLine(OTPGenerator.UniqueOrNot(otps) ? "Yes" : " no ");
 
 
 
