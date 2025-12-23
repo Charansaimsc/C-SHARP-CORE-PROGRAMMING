@@ -52,28 +52,90 @@ namespace Level_2
             //Console.WriteLine(UnitConverte.ConvertInchesToCentimeters(10));
 
 
-            int[] age = new int[10];
-            for (int i = 0; i < 10; i++)
-            {
-                age[i] = int.Parse(Console.ReadLine());
+            //int[] age = new int[10];
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    age[i] = int.Parse(Console.ReadLine());
 
-            }
-            StudentVoteChecker obj = new StudentVoteChecker();
+            //}
+            //StudentVoteChecker obj = new StudentVoteChecker();
 
-            for (int i = 0; i < 10; i++)
-            {
-                if (obj.CanStudentVote(age[i]))
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (obj.CanStudentVote(age[i]))
+            //    {
+            //        Console.WriteLine("can vote");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("can't vote");
+            //    }
+            //}
+
+
+
+
+
+            
+                int[] numbers = new int[5];
+
+                
+                for (int i = 0; i < numbers.Length; i++)
                 {
-                    Console.WriteLine("can vote");
+                    numbers[i] = int.Parse(Console.ReadLine());
+                }
+
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    if (NumberCheck.IsPositive(numbers[i]))
+                    {
+                        if (NumberCheck.IsEven(numbers[i]))
+                        {
+                            Console.WriteLine(numbers[i] + " is Positive and Even");
+                        }
+                        else
+                        {
+                            Console.WriteLine(numbers[i] + " is Positive and Odd");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine(numbers[i] + " is Negative");
+                    }
+                }
+
+             
+                int result = NumberCheck.Compare(numbers[0], numbers[numbers.Length - 1]);
+
+                if (result == 1)
+                {
+                    Console.WriteLine("First element is greater than last element");
+                }
+                else if (result == 0)
+                {
+                    Console.WriteLine("First element is equal to last element");
                 }
                 else
                 {
-                    Console.WriteLine("can't vote");
+                    Console.WriteLine("First element is less than last element");
                 }
-            }
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
-    }
+}
 
 }
