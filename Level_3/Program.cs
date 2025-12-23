@@ -28,19 +28,117 @@ namespace Level_3
             //NumberChecker.FindLargestSecondLargest(digits);
 
 
-            int number = 95560;
-            int[] digits = NumberChecker2.FindCountAndStore(number);
-            Console.WriteLine(NumberChecker2.SumOfDigits(digits));
-            Console.WriteLine(NumberChecker2.SumOfSquares(digits));
-            Console.WriteLine(NumberChecker2.HarshadNumber(digits,number) ? "Yes" : " no");
-            int[,] freq = NumberChecker2.FindFrequency(digits);
+            //int number = 95560;
+            //int[] digits = NumberChecker2.FindCountAndStore(number);
+            //Console.WriteLine(NumberChecker2.SumOfDigits(digits));
+            //Console.WriteLine(NumberChecker2.SumOfSquares(digits));
+            //Console.WriteLine(NumberChecker2.HarshadNumber(digits,number) ? "Yes" : " no");
+            //int[,] freq = NumberChecker2.FindFrequency(digits);
 
-            Console.WriteLine("Digit Frequencies:");
-            for (int i = 0; i < 10; i++)
-            {
-                if (freq[i, 1] > 0)
-                    Console.WriteLine(freq[i, 0] + " → " + freq[i, 1]);
-            }
-        }
+            //Console.WriteLine("Digit Frequencies:");
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (freq[i, 1] > 0)
+            //        Console.WriteLine(freq[i, 0] + " → " + freq[i, 1]);
+            //}
+
+
+
+                Console.WriteLine("Enter a number:");
+                int number = int.Parse(Console.ReadLine());
+
+                int[] digits = NumberChecker3.StoreDigits(number);
+
+                Console.WriteLine("Digits:");
+                foreach (int d in digits)
+                    Console.Write(d + " ");
+
+                Console.WriteLine("\nCount of digits: " + NumberChecker3.CountDigits(number));
+
+                int[] reversed = NumberChecker3.ReverseArray(digits);
+                Console.WriteLine("Reversed digits:");
+                foreach (int r in reversed)
+                    Console.Write(r + " ");
+
+                Console.WriteLine(
+                    NumberChecker3.IsPalindrome(number)
+                    ? "\nPalindrome Number"
+                    : "\nNot a Palindrome Number"
+                );
+
+                Console.WriteLine(
+                    NumberChecker3.IsDuckNumber(digits)
+                    ? "Duck Number"
+                    : "Not a Duck Number"
+                );
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+}
 }
