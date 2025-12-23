@@ -16,13 +16,22 @@ namespace Level_2
             //Console.WriteLine(NumberFactors.PowerOfFactors(factors));
 
 
-            int number = int.Parse(Console.ReadLine());
-           Console.WriteLine( NaturalNumbersSum.UsingRecurrsion(number));
+            // int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine( NaturalNumbersSum.UsingRecurrsion(number));
 
-            Console.WriteLine(NaturalNumbersSum.WithoutUsingRecurrsion(number));
+            // Console.WriteLine(NaturalNumbersSum.WithoutUsingRecurrsion(number));
 
 
+            int year = int.Parse(Console.ReadLine());
+            if (LeapYear.Calculate(year))
+            {
+                Console.WriteLine("Leap Year");
+            }
+            else
+            {
 
+                Console.WriteLine(" not Leap Year");
+            }
 
 
 
