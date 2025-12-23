@@ -76,52 +76,79 @@ namespace Level_2
 
 
 
-            
-                int[] numbers = new int[5];
 
-                
-                for (int i = 0; i < numbers.Length; i++)
+            //int[] numbers = new int[5];
+
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    numbers[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (NumberCheck.IsPositive(numbers[i]))
+            //    {
+            //        if (NumberCheck.IsEven(numbers[i]))
+            //        {
+            //            Console.WriteLine(numbers[i] + " is Positive and Even");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine(numbers[i] + " is Positive and Odd");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(numbers[i] + " is Negative");
+            //    }
+            //}
+
+
+            //int result = NumberCheck.Compare(numbers[0], numbers[numbers.Length - 1]);
+
+            //if (result == 1)
+            //{
+            //    Console.WriteLine("First element is greater than last element");
+            //}
+            //else if (result == 0)
+            //{
+            //    Console.WriteLine("First element is equal to last element");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("First element is less than last element");
+            //}
+
+
+         
+                double[,] arr = new double[10, 3];
+
+                for (int i = 0; i < 10; i++)
                 {
-                    numbers[i] = int.Parse(Console.ReadLine());
+                    arr[i, 0] = Convert.ToDouble(Console.ReadLine()); // weight
+                    arr[i, 1] = Convert.ToDouble(Console.ReadLine()); // height
+
+                    arr[i, 2] = BMIStatus.BMICalculation(arr[i, 0], arr[i, 1]);
                 }
 
-                for (int i = 0; i < numbers.Length; i++)
+                for (int i = 0; i < 10; i++)
                 {
-                    if (NumberCheck.IsPositive(numbers[i]))
+                    if (arr[i, 2] < 18.5)
                     {
-                        if (NumberCheck.IsEven(numbers[i]))
-                        {
-                            Console.WriteLine(numbers[i] + " is Positive and Even");
-                        }
-                        else
-                        {
-                            Console.WriteLine(numbers[i] + " is Positive and Odd");
-                        }
+                        Console.WriteLine("Underweight");
+                    }
+                    else if (arr[i, 2] >= 18.5 && arr[i, 2] <= 24.9)
+                    {
+                        Console.WriteLine("Normal");
                     }
                     else
                     {
-                        Console.WriteLine(numbers[i] + " is Negative");
+                        Console.WriteLine("Obese");
                     }
-                }
-
-             
-                int result = NumberCheck.Compare(numbers[0], numbers[numbers.Length - 1]);
-
-                if (result == 1)
-                {
-                    Console.WriteLine("First element is greater than last element");
-                }
-                else if (result == 0)
-                {
-                    Console.WriteLine("First element is equal to last element");
-                }
-                else
-                {
-                    Console.WriteLine("First element is less than last element");
                 }
             
         
-
 
 
 
