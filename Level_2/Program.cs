@@ -22,16 +22,28 @@ namespace Level_2
             // Console.WriteLine(NaturalNumbersSum.WithoutUsingRecurrsion(number));
 
 
-            int year = int.Parse(Console.ReadLine());
-            if (LeapYear.Calculate(year))
-            {
-                Console.WriteLine("Leap Year");
-            }
-            else
-            {
+            //int year = int.Parse(Console.ReadLine());
+            //if (LeapYear.Calculate(year))
+            //{
+            //    Console.WriteLine("Leap Year");
+            //}
+            //else
+            //{
 
-                Console.WriteLine(" not Leap Year");
-            }
+            //    Console.WriteLine(" not Leap Year");
+            //}
+
+
+            double km = int.Parse(Console.ReadLine());
+            Console.WriteLine(UnitConverter.KmToMiles(km));
+            double miles = int.Parse(Console.ReadLine());
+            Console.WriteLine(UnitConverter.MilesToKm(miles));
+            double meters = int.Parse(Console.ReadLine());
+            Console.WriteLine(UnitConverter.MetersToFeet(meters));
+            double feet = int.Parse(Console.ReadLine());
+            Console.WriteLine(UnitConverter.FeetToMeters(feet));
+
+
 
 
 
