@@ -6,9 +6,6 @@ public class BMIStatus
 	{
 		
 		
-			return weight / height * height;
-
-
-        
+			return weight / height * height;  
 	}
 }

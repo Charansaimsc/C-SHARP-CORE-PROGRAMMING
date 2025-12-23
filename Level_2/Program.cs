@@ -121,48 +121,61 @@ namespace Level_2
             //}
 
 
-         
-                double[,] arr = new double[10, 3];
 
-                for (int i = 0; i < 10; i++)
-                {
-                    arr[i, 0] = Convert.ToDouble(Console.ReadLine()); // weight
-                    arr[i, 1] = Convert.ToDouble(Console.ReadLine()); // height
+            //double[,] arr = new double[10, 3];
 
-                    arr[i, 2] = BMIStatus.BMICalculation(arr[i, 0], arr[i, 1]);
-                }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    arr[i, 0] = Convert.ToDouble(Console.ReadLine()); // weight
+            //    arr[i, 1] = Convert.ToDouble(Console.ReadLine()); // height
 
-                for (int i = 0; i < 10; i++)
-                {
-                    if (arr[i, 2] < 18.5)
-                    {
-                        Console.WriteLine("Underweight");
-                    }
-                    else if (arr[i, 2] >= 18.5 && arr[i, 2] <= 24.9)
-                    {
-                        Console.WriteLine("Normal");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Obese");
-                    }
-                }
-            
-        
+            //    arr[i, 2] = BMIStatus.BMICalculation(arr[i, 0], arr[i, 1]);
+            //}
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (arr[i, 2] < 18.5)
+            //    {
+            //        Console.WriteLine("Underweight");
+            //    }
+            //    else if (arr[i, 2] >= 18.5 && arr[i, 2] <= 24.9)
+            //    {
+            //        Console.WriteLine("Normal");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Obese");
+            //    }
+            //}
 
 
 
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
+            double c = Convert.ToDouble(Console.ReadLine());
+
+            double[] roots = Quadratic.FindRoots(a, b, c);
+
+            if (roots.Length == 2)
+            {
+                Console.WriteLine("Root 1: " + roots[0]);
+                Console.WriteLine("Root 2: " + roots[1]);
+            }
+            else if (roots.Length == 1)
+            {
+                Console.WriteLine("Root: " + roots[0]);
+            }
+            else
+            {
+                Console.WriteLine("No real roots");
+            }
 
 
 
 
 
 
-
-
-
-
-    }
+        }
 }
 
 }
