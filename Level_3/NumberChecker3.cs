@@ -16,7 +16,7 @@ using System;
 
 public class NumberChecker3
 {
-    // a) Count digits
+
     public static int CountDigits(int number)
     {
         int count = 0;
@@ -27,8 +27,6 @@ public class NumberChecker3
         }
         return count;
     }
-
-    // a) Store digits in array
     public static int[] StoreDigits(int number)
     {
         int size = CountDigits(number);

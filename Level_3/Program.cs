@@ -44,38 +44,50 @@ namespace Level_3
 
 
 
-                Console.WriteLine("Enter a number:");
-                int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a number:");
+            //int number = int.Parse(Console.ReadLine());
 
-                int[] digits = NumberChecker3.StoreDigits(number);
+            //int[] digits = NumberChecker3.StoreDigits(number);
 
-                Console.WriteLine("Digits:");
-                foreach (int d in digits)
-                    Console.Write(d + " ");
+            //Console.WriteLine("Digits:");
+            //foreach (int d in digits)
+            //    Console.Write(d + " ");
 
-                Console.WriteLine("\nCount of digits: " + NumberChecker3.CountDigits(number));
+            //Console.WriteLine("\nCount of digits: " + NumberChecker3.CountDigits(number));
 
-                int[] reversed = NumberChecker3.ReverseArray(digits);
-                Console.WriteLine("Reversed digits:");
-                foreach (int r in reversed)
-                    Console.Write(r + " ");
+            //int[] reversed = NumberChecker3.ReverseArray(digits);
+            //Console.WriteLine("Reversed digits:");
+            //foreach (int r in reversed)
+            //    Console.Write(r + " ");
 
-                Console.WriteLine(
-                    NumberChecker3.IsPalindrome(number)
-                    ? "\nPalindrome Number"
-                    : "\nNot a Palindrome Number"
-                );
+            //Console.WriteLine(
+            //    NumberChecker3.IsPalindrome(number)
+            //    ? "\nPalindrome Number"
+            //    : "\nNot a Palindrome Number"
+            //);
 
-                Console.WriteLine(
-                    NumberChecker3.IsDuckNumber(digits)
-                    ? "Duck Number"
-                    : "Not a Duck Number"
-                );
+            //Console.WriteLine(
+            //    NumberChecker3.IsDuckNumber(digits)
+            //    ? "Duck Number"
+            //    : "Not a Duck Number"
+            //);
+
+
+
+
             
-        
+            Console.WriteLine("Enter a number:");
+            int number = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("\nResults:");
 
+            Console.WriteLine("Prime Number     : " + NumberChecker4.IsPrime(number));
+            Console.WriteLine("Neon Number      : " + NumberChecker4.IsNeon(number));
+            Console.WriteLine("Spy Number       : " + NumberChecker4.IsSpy(number));
+            Console.WriteLine("Automorphic No.  : " + NumberChecker4.IsAutomorphic(number));
+            Console.WriteLine("Buzz Number      : " + NumberChecker4.IsBuzz(number));
 
+            Console.ReadLine();
 
 
 
@@ -139,6 +151,10 @@ namespace Level_3
 
 
 
-    }
+
+
+
+
+        }
 }
 }
