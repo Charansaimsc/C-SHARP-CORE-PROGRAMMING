@@ -150,31 +150,38 @@ namespace Level_2
 
 
 
-            double a = Convert.ToDouble(Console.ReadLine());
-            double b = Convert.ToDouble(Console.ReadLine());
-            double c = Convert.ToDouble(Console.ReadLine());
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //double c = Convert.ToDouble(Console.ReadLine());
 
-            double[] roots = Quadratic.FindRoots(a, b, c);
+            //double[] roots = Quadratic.FindRoots(a, b, c);
 
-            if (roots.Length == 2)
+            //if (roots.Length == 2)
+            //{
+            //    Console.WriteLine("Root 1: " + roots[0]);
+            //    Console.WriteLine("Root 2: " + roots[1]);
+            //}
+            //else if (roots.Length == 1)
+            //{
+            //    Console.WriteLine("Root: " + roots[0]);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No real roots");
+            //}
+
+
+
+            int[] numbers = OperationsOnRandomNumbers.GenerateRandomNumbers(5);
+
+            for(int i = 0; i < 5; i++)
             {
-                Console.WriteLine("Root 1: " + roots[0]);
-                Console.WriteLine("Root 2: " + roots[1]);
-            }
-            else if (roots.Length == 1)
-            {
-                Console.WriteLine("Root: " + roots[0]);
-            }
-            else
-            {
-                Console.WriteLine("No real roots");
+                Console.WriteLine(numbers[i]);
             }
 
+            double[] result = OperationsOnRandomNumbers.MinMaxAvg(numbers);
 
-
-
-
-
+            Console.WriteLine(result[1]);
         }
 }
 
