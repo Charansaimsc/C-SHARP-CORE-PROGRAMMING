@@ -51,12 +51,26 @@ namespace Level_2
             //Console.WriteLine(UnitConverte.ConvertInchesToMeters(10));
             //Console.WriteLine(UnitConverte.ConvertInchesToCentimeters(10));
 
-            Console.WriteLine(UnitConvert.ConvertFahrenheitToCelsius(98.6));
-            Console.WriteLine(UnitConvert.ConvertCelsiusToFahrenheit(37));
-            Console.WriteLine(UnitConvert.ConvertPoundsToKilograms(10));
-            Console.WriteLine(UnitConvert.ConvertKilogramsToPounds(5));
-            Console.WriteLine(UnitConvert.ConvertGallonsToLiters(2));
-            Console.WriteLine(UnitConvert.ConvertLitersToGallons(5));
+
+            int[] age = new int[10];
+            for (int i = 0; i < 10; i++)
+            {
+                age[i] = int.Parse(Console.ReadLine());
+
+            }
+            StudentVoteChecker obj = new StudentVoteChecker();
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (obj.CanStudentVote(age[i]))
+                {
+                    Console.WriteLine("can vote");
+                }
+                else
+                {
+                    Console.WriteLine("can't vote");
+                }
+            }
 
 
     }
