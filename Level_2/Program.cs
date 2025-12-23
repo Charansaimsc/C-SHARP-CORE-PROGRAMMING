@@ -34,18 +34,22 @@ namespace Level_2
             //}
 
 
-            double km = int.Parse(Console.ReadLine());
-            Console.WriteLine(UnitConverter.KmToMiles(km));
-            double miles = int.Parse(Console.ReadLine());
-            Console.WriteLine(UnitConverter.MilesToKm(miles));
-            double meters = int.Parse(Console.ReadLine());
-            Console.WriteLine(UnitConverter.MetersToFeet(meters));
-            double feet = int.Parse(Console.ReadLine());
-            Console.WriteLine(UnitConverter.FeetToMeters(feet));
+            //double km = int.Parse(Console.ReadLine());
+            //Console.WriteLine(UnitConverter.KmToMiles(km));
+            //double miles = int.Parse(Console.ReadLine());
+            //Console.WriteLine(UnitConverter.MilesToKm(miles));
+            //double meters = int.Parse(Console.ReadLine());
+            //Console.WriteLine(UnitConverter.MetersToFeet(meters));
+            //double feet = int.Parse(Console.ReadLine());
+            //Console.WriteLine(UnitConverter.FeetToMeters(feet));
 
 
 
-
+            Console.WriteLine(UnitConverte.ConvertYardsToFeet(5));
+            Console.WriteLine(UnitConverte.ConvertFeetToYards(15));
+            Console.WriteLine(UnitConverte.ConvertMetersToInches(2));
+            Console.WriteLine(UnitConverte.ConvertInchesToMeters(10));
+            Console.WriteLine(UnitConverte.ConvertInchesToCentimeters(10));
 
 
         }
