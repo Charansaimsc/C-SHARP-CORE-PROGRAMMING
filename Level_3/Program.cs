@@ -75,32 +75,53 @@ namespace Level_3
 
 
 
-            
-            Console.WriteLine("Enter a number:");
-            int number = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nResults:");
+            //Console.WriteLine("Enter a number:");
+            //int number = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Prime Number     : " + NumberChecker4.IsPrime(number));
-            Console.WriteLine("Neon Number      : " + NumberChecker4.IsNeon(number));
-            Console.WriteLine("Spy Number       : " + NumberChecker4.IsSpy(number));
-            Console.WriteLine("Automorphic No.  : " + NumberChecker4.IsAutomorphic(number));
-            Console.WriteLine("Buzz Number      : " + NumberChecker4.IsBuzz(number));
+            //Console.WriteLine("\nResults:");
 
-            Console.ReadLine();
+            //Console.WriteLine("Prime Number     : " + NumberChecker4.IsPrime(number));
+            //Console.WriteLine("Neon Number      : " + NumberChecker4.IsNeon(number));
+            //Console.WriteLine("Spy Number       : " + NumberChecker4.IsSpy(number));
+            //Console.WriteLine("Automorphic No.  : " + NumberChecker4.IsAutomorphic(number));
+            //Console.WriteLine("Buzz Number      : " + NumberChecker4.IsBuzz(number));
 
+            //Console.ReadLine();
 
 
+                Console.WriteLine("Enter a number:");
+                int num = int.Parse(Console.ReadLine());
 
+                int[] factors = NumberChecker5.Factors(num);
 
+                Console.WriteLine("\nFactors:");
+                foreach (int f in factors)
+                    Console.Write(f + " ");
 
+                Console.WriteLine("\n\nGreatest Factor: " +
+                    NumberChecker5.GreatestFacter(factors));
 
+                Console.WriteLine("Product of Factors: " +
+                    NumberChecker5.Product(factors));
 
+                Console.WriteLine("Product of Cubes of Factors: " +
+                    NumberChecker5.ProductOfCubes(factors));
 
+                Console.WriteLine("\nPerfect Number: " +
+                    NumberChecker5.IsPerfectNumber(num));
 
+                Console.WriteLine("Abundant Number: " +
+                    NumberChecker5.AbundentNumber(num));
 
+                Console.WriteLine("Deficient Number: " +
+                    NumberChecker5.DeficientNumber(num));
 
+                Console.WriteLine("Strong Number: " +
+                    NumberChecker5.IsStrongNumber(num));
 
+                Console.ReadLine();
+           
 
 
 
@@ -155,6 +176,18 @@ namespace Level_3
 
 
 
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 }
 }
